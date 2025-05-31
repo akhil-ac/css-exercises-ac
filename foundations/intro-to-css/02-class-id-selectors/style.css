@@ -1,0 +1,26 @@
+
+
+
+
+.odd-p {
+    background-color: #ff9999;
+
+}
+
+#num2 {
+    font-size: 36px;
+    color: hsl(225, 91%, 34%)
+
+}
+
+.odd-p.num3 {
+    font-size: 24px;
+
+}
+
+#num4 {
+    font-size: 24px;
+    background-color:hsl(120, 88%, 54%);
+    color: black;
+    font-weight: bold;
+}
