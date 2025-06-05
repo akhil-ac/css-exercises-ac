@@ -9,9 +9,13 @@ body {
 }
 
 .header {
+  display: flex;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
 }
 
 .profile-image {
@@ -41,8 +45,23 @@ a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+  display: flex;
 }
 
 ul {
   list-style-type: none;
+  gap: 16px;
+  display: flex;
+}
+
+.toright {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+}
+
+.toleft {
+  display: flex;
+  justify-content: flex-start;
+  
 }
