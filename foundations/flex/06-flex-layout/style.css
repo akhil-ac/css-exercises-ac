@@ -24,3 +24,38 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* removing underline from links */
+a:link {
+  text-decoration: none;
+}
+
+/* removing bullets from lists */
+ul {
+  list-style-type: none;
+}
+
+/* making the left right links a flex container */
+
+.container {
+  display: flex;
+
+}
+
+.header {
+  display: flex;
+  padding: 16px;
+  background: #f5f5f5;
+}
+
+.left-links {
+  display: flex;
+  gap: 16px;
+
+}
+
+.right-links {
+  display: flex;
+  gap: 16px;
+  
+}
